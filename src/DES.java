@@ -8,7 +8,7 @@ public class DES {
     public static void main(String[] args) {
         // 明文
         String message = "Hello World!";
-        // 秘钥，使用DES加密时，必须为8位
+        // 秘钥，使用DES加密时，必须为8字节
         String key = "12345678";
         String encryptText = encrypt(message, key);
         System.out.println("密文：" + encryptText);
