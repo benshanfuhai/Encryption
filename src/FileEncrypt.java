@@ -7,7 +7,6 @@ import java.io.InputStream;
 
 public class FileEncrypt {
     public static void main(String[] args) {
-        // 秘钥
         String key = "12345678";
         // 加密图片
         // encryptFileByDES("src/sources/test.png", key);
