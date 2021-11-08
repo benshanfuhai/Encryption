@@ -41,9 +41,9 @@ public class FileEncrypt {
     }
 
     /**
-     * 使用DES加密图片
+     * 使用DES加密文件
      *
-     * @param filePath 待加密图片路径
+     * @param filePath 待加密文件路径
      * @param key      秘钥
      */
     public static void encryptFileByDES(String filePath, String key) {
@@ -64,9 +64,9 @@ public class FileEncrypt {
     }
 
     /**
-     * 使用DES解密图片
+     * 使用DES解密文件
      *
-     * @param filePath 待解密图片路径
+     * @param filePath 待解密文件路径
      * @param key      秘钥
      */
     public static void decryptFileByDES(String filePath, String key) {
